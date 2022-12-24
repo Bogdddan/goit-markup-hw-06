@@ -743,6 +743,7 @@ img{
 .footer-nav{
     display: flex;
     align-items: baseline;
+    position: relative;
 }
 
 
@@ -751,6 +752,10 @@ img{
     margin-left: 120px;
 }
 
+.footer-buttons{
+    display: flex;
+    align-items: baseline;
+}
 
 .logofooter{
     margin-bottom: 16px;
@@ -909,8 +914,8 @@ footer{
 
 .logoyaco{
     fill: currentColor;
-    width: 104px;
-    height: 56px;
+    width: 100%;
+    height: 100%;
     padding: 16px 32px;
 }
 
@@ -1096,6 +1101,7 @@ footer{
 
 
 
+
 .input-svg{
     position: absolute;
     top: 144px;
@@ -1145,6 +1151,69 @@ footer{
     letter-spacing: 4%;
     align-items: center;
     line-height: 1.17;
-    width: ;
-    height: ;
+    color: #FFFFFF;
+}
+.footer-subscribe{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.footer-buttonss{
+    display: block;
+    align-items: baseline;
+    margin-left: 80px;
+    
+}
+
+
+.footer-button{
+    margin: 0;
+    padding: 0;
+    width: 168px;
+    height: 40px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 24px;
+}
+
+.footer-email{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF4D;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.footer-svgsubs{
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+
+.subscribe-text{
+    position: absolute;
+    left: 24px;
+    top: 8px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 6%;
+
+}
+
+.checkbox-modal{
+    width: 24px;
+    height: 24px;
+}
+
+.for{
+    color: black;
 }
