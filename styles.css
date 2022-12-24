@@ -1091,6 +1091,7 @@ footer{
     position: absolute;
     top: 328px;
     left: 24px;
+    resize: none;
 }
 
 
@@ -1119,3 +1120,31 @@ footer{
 }
 
 
+.checkbox-modal{
+    position: absolute;
+    top: 464px;
+    left: 24px;
+}
+
+
+.modal-button{
+    position: absolute;
+    top: 504px;
+    left: 119px;
+    width: 170px;
+    height: 51px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.modal-button-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 4%;
+    align-items: center;
+    line-height: 1.17;
+    width: ;
+    height: ;
+}
