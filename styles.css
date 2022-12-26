@@ -1246,8 +1246,7 @@ footer{
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
-    position: absolute;
-    margin-left: 24px;
+    margin-left: 20px;
 }
 
 .footer-email{
@@ -1261,22 +1260,15 @@ footer{
 .footer-svgsubs{
     width: 24px;
     height: 20px;
-    position: absolute;
-    top: 10px;
-    left: 120px;
 }
 
 .subscribe-text{
-    position: absolute;
-    left: 24px;
-    top: 8px;
     margin: 0;
     padding: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 6%;
-
 }
 
 
@@ -1366,6 +1358,15 @@ footer{
 
 .label-modal{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.substg{
+    display: flex;
+    gap: 16px;
     align-items: center;
     justify-content: center;
 }
